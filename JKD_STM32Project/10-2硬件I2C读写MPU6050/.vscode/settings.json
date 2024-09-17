@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stm32f10x.h": "c",
+        "KEY.C": "cpp",
+        "cstddef": "c",
+        "mpu6050_reg.h": "c"
+    }
+}
