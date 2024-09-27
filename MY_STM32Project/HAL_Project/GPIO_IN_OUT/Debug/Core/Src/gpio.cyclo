@@ -1,0 +1,8 @@
+../Core/Src/gpio.c:42:6:MX_GPIO_Init	1
+../Core/Src/gpio.c:82:6:LED1ON	1
+../Core/Src/gpio.c:87:6:LED1OFF	1
+../Core/Src/gpio.c:92:6:LED1Toggle	1
+../Core/Src/gpio.c:97:6:LED2ON	1
+../Core/Src/gpio.c:102:6:LED2OFF	1
+../Core/Src/gpio.c:107:6:LED2Toggle	1
+../Core/Src/gpio.c:111:10:Key_Scan	4
