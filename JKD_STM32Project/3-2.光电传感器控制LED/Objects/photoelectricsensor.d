@@ -2,7 +2,7 @@
 .\objects\photoelectricsensor.o: Hardware\PhotoElectricSensor.h
 .\objects\photoelectricsensor.o: .\Start\stm32f10x.h
 .\objects\photoelectricsensor.o: .\Start\core_cm3.h
-.\objects\photoelectricsensor.o: D:\Profession\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\photoelectricsensor.o: D:\Profession\Keil_v32\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\photoelectricsensor.o: .\Start\system_stm32f10x.h
 .\objects\photoelectricsensor.o: .\User\stm32f10x_conf.h
 .\objects\photoelectricsensor.o: .\Library\stm32f10x_adc.h
