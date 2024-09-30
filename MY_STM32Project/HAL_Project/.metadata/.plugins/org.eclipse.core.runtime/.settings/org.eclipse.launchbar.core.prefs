@@ -1,7 +1,10 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_IN_OUT Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:3_EXTI Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:4.5_TIMER_PWM_IC Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:4.1_TIMER_ETR Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:4.2_TIMER_PWM_LED Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:4.3_TIMER_PWM_Servo Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:4.4_TIMER_PWM_Morto Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:4_TIMER_IT Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_IN_OUT Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:3_EXTI Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:4.7_TIMER_Encode Debug
 eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:3_EXTI\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:3_EXTI\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:4.2_TIMER_PWM_LED\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_IN_OUT\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_IN_OUT\ Debug/activeLaunchTarget=null\:---

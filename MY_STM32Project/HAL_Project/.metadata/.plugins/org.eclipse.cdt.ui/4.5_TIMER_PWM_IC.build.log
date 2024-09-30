@@ -1,0 +1,10 @@
+18:06:00 **** Incremental Build of configuration Debug for project 4.5_TIMER_PWM_IC ****
+make -j16 all 
+arm-none-eabi-size   4.5_TIMER_PWM_IC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15752	     20	   1796	  17568	   44a0	4.5_TIMER_PWM_IC.elf
+Finished building: default.size.stdout
+ 
+
+18:06:01 Build Finished. 0 errors, 0 warnings. (took 317ms)
+

@@ -2,7 +2,7 @@
 .\objects\bsp_led.o: User\bsp_led.h
 .\objects\bsp_led.o: .\Start\stm32f10x.h
 .\objects\bsp_led.o: .\Start\core_cm3.h
-.\objects\bsp_led.o: D:\Profession\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bsp_led.o: D:\Profession\Keil_v32\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\bsp_led.o: .\Start\system_stm32f10x.h
 .\objects\bsp_led.o: .\User\stm32f10x_conf.h
 .\objects\bsp_led.o: .\Library\stm32f10x_adc.h

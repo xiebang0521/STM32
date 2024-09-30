@@ -1,38 +1,10 @@
-14:25:41 **** Incremental Build of configuration Debug for project 3_EXTI ****
+16:33:16 **** Build of configuration Debug for project 3_EXTI ****
 make -j16 all 
-arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/gpio.o"
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:93:3: warning: implicit declaration of function 'OLED_Init' [-Wimplicit-function-declaration]
-   93 |   OLED_Init();
-      |   ^~~~~~~~~
-../Core/Src/main.c:100:10: warning: implicit declaration of function 'OLED_ShowString' [-Wimplicit-function-declaration]
-  100 |          OLED_ShowString(1, 1, "count:");
-      |          ^~~~~~~~~~~~~~~
-../Core/Src/main.c:102:11: warning: implicit declaration of function 'OLED_ShowNum' [-Wimplicit-function-declaration]
-  102 |           OLED_ShowNum(1, 7, count_sensor, 5);
-      |           ^~~~~~~~~~~~
-../Core/Src/main.c:104:11: warning: implicit declaration of function 'OLED_ShowSignedNum' [-Wimplicit-function-declaration]
-  104 |           OLED_ShowSignedNum(2, 8, encode_count, 4);
-      |           ^~~~~~~~~~~~~~~~~~
-../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
-../Core/Src/main.c:161:81: warning: comparison between 'GPIO_PinState' and 'enum <anonymous>' [-Wenum-compare]
-  161 |                 if(HAL_GPIO_ReadPin(ENCODE_PHASEB_GPIO_Port, ENCODE_PHASEB_Pin) == RESET)
-      |                                                                                 ^~
-../Core/Src/main.c:169:81: warning: comparison between 'GPIO_PinState' and 'enum <anonymous>' [-Wenum-compare]
-  169 |                 if(HAL_GPIO_ReadPin(ENCODE_PHASEA_GPIO_Port, ENCODE_PHASEA_Pin) == RESET)
-      |                                                                                 ^~
-arm-none-eabi-gcc -o "3_EXTI.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\Learning\32\STM32\MY_STM32Project\HAL_Project\3_EXTI\STM32F103ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="3_EXTI.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 3_EXTI.elf
- 
 arm-none-eabi-size   3_EXTI.elf 
-arm-none-eabi-objdump -h -S  3_EXTI.elf  > "3_EXTI.list"
    text	   data	    bss	    dec	    hex	filename
   10320	     20	   1660	  12000	   2ee0	3_EXTI.elf
 Finished building: default.size.stdout
  
-Finished building: 3_EXTI.list
- 
 
-14:25:42 Build Finished. 0 errors, 6 warnings. (took 974ms)
+16:33:16 Build Finished. 0 errors, 0 warnings. (took 315ms)
 

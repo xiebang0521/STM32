@@ -2,7 +2,7 @@
 .\objects\pwm.o: Hardware\PWM.h
 .\objects\pwm.o: .\Start\stm32f10x.h
 .\objects\pwm.o: .\Start\core_cm3.h
-.\objects\pwm.o: D:\Profession\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pwm.o: D:\Profession\Keil_v32\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\pwm.o: .\Start\system_stm32f10x.h
 .\objects\pwm.o: .\User\stm32f10x_conf.h
 .\objects\pwm.o: .\Library\stm32f10x_adc.h

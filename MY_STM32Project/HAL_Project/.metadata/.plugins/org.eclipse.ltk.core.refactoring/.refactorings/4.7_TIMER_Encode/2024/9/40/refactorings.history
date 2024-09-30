@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;4.7_TIMER_Encode/4.6_TIMER_PWMI.ioc&apos; to &apos;4.7_TIMER_Encode.ioc&apos;" description="Rename resource &apos;4.6_TIMER_PWMI.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="4.6_TIMER_PWMI.ioc" name="4.7_TIMER_Encode.ioc" stamp="1727691096039" updateReferences="true"/>
+</session>

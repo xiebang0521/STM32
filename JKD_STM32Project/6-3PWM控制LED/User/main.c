@@ -14,29 +14,29 @@ int main(void)
 	OLED_ShowString(1,1,"Angle:");
 	while(1)
 	{
-		KeyNum = Key_Scan();
-		if(KeyNum == 1)
+//		KeyNum = Key_Scan();
+//		if(KeyNum == 1)
+//		{
+
+//			Angle += 30;
+//			if (Angle > 180)
+//			{
+//				Angle = 0;
+//			}
+//		}
+
+//		
+//		Servo_SetAngle(Angle);
+//		OLED_ShowNum(1,7,Angle,3);
+		for(int i = 0; i <= 100; i++)
 		{
-
-			Angle += 30;
-			if (Angle > 180)
-			{
-				Angle = 0;
-			}
+		 	PWM_SetCompare1(i);
+		 	Delay_ms(10);
+		 }
+		for(int i = 0; i <= 100; i++)
+		 {
+		 	PWM_SetCompare1(100 - i);
+		 	Delay_ms(10);
 		}
-
-		
-		Servo_SetAngle(Angle);
-		OLED_ShowNum(1,7,Angle,3);
-		// for(int i = 0; i <= 100; i++)
-		// {
-		// 	PWM_SetCompare2(i);
-		// 	Delay_ms(10);
-		// }
-		// for(int i = 0; i <= 100; i++)
-		// {
-		// 	PWM_SetCompare2(100 - i);
-		// 	Delay_ms(10);
-		// }
 	}
 }

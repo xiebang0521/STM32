@@ -1,0 +1,10 @@
+16:33:18 **** Build of configuration Debug for project 4_TIMER_IT ****
+make -j16 all 
+arm-none-eabi-size   4_TIMER_IT.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12240	     20	   1732	  13992	   36a8	4_TIMER_IT.elf
+Finished building: default.size.stdout
+ 
+
+16:33:18 Build Finished. 0 errors, 0 warnings. (took 310ms)
+

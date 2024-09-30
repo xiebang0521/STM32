@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "bsp_gpio.h": "c",
+        "stm32f10x.h": "c",
+        "led_gpio.h": "c",
+        "key_gpio.h": "c",
+        "count_sensor.h": "c",
+        "sysdelay.h": "c",
+        "timer.h": "c"
+    }
+}

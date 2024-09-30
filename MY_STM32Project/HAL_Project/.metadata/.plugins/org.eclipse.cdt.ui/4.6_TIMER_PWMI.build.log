@@ -1,0 +1,17 @@
+18:09:10 **** Incremental Build of configuration Debug for project 4.6_TIMER_PWMI ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc -o "4.6_TIMER_PWMI.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\Learning\32\STM32\MY_STM32Project\HAL_Project\4.6_TIMER_PWMI\STM32F103ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="4.6_TIMER_PWMI.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 4.6_TIMER_PWMI.elf
+ 
+arm-none-eabi-size   4.6_TIMER_PWMI.elf 
+arm-none-eabi-objdump -h -S  4.6_TIMER_PWMI.elf  > "4.6_TIMER_PWMI.list"
+   text	   data	    bss	    dec	    hex	filename
+  15860	     20	   1796	  17676	   450c	4.6_TIMER_PWMI.elf
+Finished building: default.size.stdout
+ 
+Finished building: 4.6_TIMER_PWMI.list
+ 
+
+18:09:11 Build Finished. 0 errors, 0 warnings. (took 812ms)
+

@@ -1,0 +1,7 @@
+../Core/Src/tim.c:24:9:HAL_TIM_GET_Htim3Cpature	16	static
+../Core/Src/tim.c:36:6:MX_TIM2_Init	32	static
+../Core/Src/tim.c:76:6:MX_TIM3_Init	56	static
+../Core/Src/tim.c:120:6:HAL_TIM_Base_MspInit	24	static
+../Core/Src/tim.c:140:6:HAL_TIM_Encoder_MspInit	40	static
+../Core/Src/tim.c:168:6:HAL_TIM_Base_MspDeInit	16	static
+../Core/Src/tim.c:187:6:HAL_TIM_Encoder_MspDeInit	16	static

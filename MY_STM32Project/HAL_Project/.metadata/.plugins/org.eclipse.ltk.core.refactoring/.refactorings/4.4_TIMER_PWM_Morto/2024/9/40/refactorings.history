@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;4.4_TIMER_PWM_Morto/4.3_TIMER_PWM_Servo.ioc&apos; to &apos;4.4_TIMER_PWM_Morto.ioc&apos;" description="Rename resource &apos;4.3_TIMER_PWM_Servo.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="4.3_TIMER_PWM_Servo.ioc" name="4.4_TIMER_PWM_Morto.ioc" stamp="1727686128095" updateReferences="true"/>
+</session>
